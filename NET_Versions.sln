@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET_4.8", "NET_4.8.csproj", "{2B2AC81A-3E02-4398-9D35-9A3DB949FAA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET_5", "NET_5.csproj", "{87AFA963-4C9B-4EE4-BC46-BDBDE599EC51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NET_6", "NET_6.csproj", "{EB269BA9-C93B-408F-8F2B-5094CE4D08B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE267B53-5B3F-443A-B2CF-CAA84220E551}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B2AC81A-3E02-4398-9D35-9A3DB949FAA9}.Debug|x64.ActiveCfg = Debug|x64
+		{2B2AC81A-3E02-4398-9D35-9A3DB949FAA9}.Debug|x64.Build.0 = Debug|x64
+		{2B2AC81A-3E02-4398-9D35-9A3DB949FAA9}.Release|x64.ActiveCfg = Release|x64
+		{2B2AC81A-3E02-4398-9D35-9A3DB949FAA9}.Release|x64.Build.0 = Release|x64
+		{87AFA963-4C9B-4EE4-BC46-BDBDE599EC51}.Debug|x64.ActiveCfg = Debug|x64
+		{87AFA963-4C9B-4EE4-BC46-BDBDE599EC51}.Debug|x64.Build.0 = Debug|x64
+		{87AFA963-4C9B-4EE4-BC46-BDBDE599EC51}.Release|x64.ActiveCfg = Release|x64
+		{87AFA963-4C9B-4EE4-BC46-BDBDE599EC51}.Release|x64.Build.0 = Release|x64
+		{EB269BA9-C93B-408F-8F2B-5094CE4D08B3}.Debug|x64.ActiveCfg = Debug|x64
+		{EB269BA9-C93B-408F-8F2B-5094CE4D08B3}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2B03E6C-89DA-4AF9-9FF8-372358EFCCA1}
+	EndGlobalSection
+EndGlobal

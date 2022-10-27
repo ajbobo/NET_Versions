@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch NET_4.8",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build NET_4.8",
+            "program": "${workspaceFolder}/bin/Debug/v4.8/NET_4.8.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch NET_5",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build NET_5",
+            "program": "${workspaceFolder}/bin/Debug/net5.0/NET_5.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch NET_6",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build NET_6",
+            "program": "${workspaceFolder}/bin/Debug/net6.0/NET_6.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

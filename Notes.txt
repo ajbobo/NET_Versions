@@ -1,0 +1,17 @@
+This is designed to report which .NET framework an app is using.
+NOTE: All of the projects use the exact same C# file (Program.cs). Changing it for one changes it for all.
+
+VSCode doesn't have easy support for .NET Framework 4.8, so I created the NET_4.8 project in VStudio and set up tasks for it here.
+There is a VStudio solution so that these can be opened there, too
+
+Building the solution in VStudio 2019 is weird.
+    You may have to delete the bin/obj directories before NET_4.8 will build
+    You may have to run a NuGet Restore before NET_5 will build
+    NET_6 won't work in VStudio 2019 (.NET 6 is only supported in 2022) - I disabled the Solution build configuration for that project, but you can still right-click on it and try to build it
+
+Some notes about versions:
+.NET Framework 4.8 (or 4.8.1) - Windows only - Last of the "Framework" versions
+.NET 5.0 - Cross-platform - New name for .NET Core
+.NET 6.0 - Cross-platform - New name for .NET Core
+
+The "dotnet" commandline app is for .NET Core/.NET - It is not part of .NET Framework.
